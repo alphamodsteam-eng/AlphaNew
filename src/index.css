@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Outfit:wght@400;600;900&family=Space+Grotesk:wght@300;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", sans-serif;
+  --font-tech: "Space Grotesk", sans-serif;
+  --font-horror: "Creepster", system-ui;
+  --animate-spin-slow: spin 8s linear infinite;
+}
